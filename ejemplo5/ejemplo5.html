@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Vídeo del Puerto de Algeciras</title>
+    <style>
+        body {
+            font-family: system-ui;
+            margin: 1rem;
+            text-align: center
+        }
+
+        video {
+            max-width: 25%;
+            border: 1px solid #ccc;
+            border-radius: 4px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Conoce el Puerto de Algeciras</h1>
+
+    <video controls poster="portada.jpg">
+        <source src="videoPuerto.mp4" type="video/mp4">
+        <track src="sub-es.vtt" kind="subtitles" srclang="es" label="Español" default>
+        <track src="sub-ing.vtt" kind="subtitles" srclang="en" label="English">
+        Tu navegador no soporta vídeo HTML5.
+    </video>
+
+    <p>
+        Vídeo de presentación del Puerto Bahía de Algeciras,
+        publicado por la Autoridad Portuaria.
+    </p>
+
+    <a href="https://vimeo.com/336300095" target="_blank" rel="noopener noreferrer">
+        Fuente de la noticia real
+    </a>
+</body>
+
+</html>

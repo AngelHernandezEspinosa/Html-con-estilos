@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Especial Kursaal - Algeciras</title>
+    <style>
+        body {
+            font-family: system-ui;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #2b5bff;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: white;
+            margin: .8rem;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        }
+
+        .card {
+            background: white;
+            border: 2px solid #ddd;
+            padding: 1rem;
+            border-radius: 6px;
+        }
+
+        article {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+
+        aside {
+            background: white;
+            border-left: 4px solid #999;
+            padding: 1rem;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: .7rem;
+            text-align: center;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background: white;
+        }
+
+        label {
+            display: block;
+            margin-top: .7rem;
+        }
+
+        input[type="range"] {
+            width: 100%;
+        }
+
+        button {
+            margin-top: 1rem;
+            padding: .8rem 1.6rem;
+            background: #2b5bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #173fc7;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Especial Kursaal de Algeciras</h1>
+        <p>Historia, educación y cultura en nuestra ciudad</p>
+
+        <nav>
+            <a href="#noticia">Noticia</a>
+            <a href="#historia">Historia</a>
+            <a href="#cronologia">Cronología</a>
+            <a href="#opinion">Opinión</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="noticia">
+            <h2>Actualidad del IES Kursaal</h2>
+
+            <article>
+                <h3>El IES Kursaal organiza la quinta Gymkana Matemática</h3>
+
+                <time datetime="2026-05-15">
+                    15 de mayo de 2026
+                </time>
+
+                <p>
+                    El Instituto de Educación Secundaria Kursaal
+                    de Algeciras organizó la quinta edición de
+                    la Gymkana Matemática, una actividad educativa
+                    en la que participaron estudiantes de
+                    diferentes centros de enseñanza.
+                </p>
+
+                <p>
+                    La iniciativa contó con la colaboración del
+                    CEP Algeciras-La Línea y reunió a alumnos
+                    de cuarto de secundaria de centros
+                    algecireños y de Ceuta.
+                </p>
+
+                <p>
+                    El alcalde José Ignacio Landaluce asistió
+                    al comienzo de la actividad, celebrada
+                    en el entorno del Centro Comercial Bahía
+                    de Algeciras.
+                </p>
+
+                <a
+                    href="https://www.algeciras.es/es/detalle-de-noticia/Landaluce-presente-en-el-comienzo-de-la-quinta-edicion-de-la-Gymkana-Matematica-organizada-por-los-centros-de-la-ciudad/">
+                    Leer noticia completa
+                </a>
+            </article>
+
+            <aside>
+                <h3>Dato curioso</h3>
+                <p>
+                    La historia del IES Kursaal se remonta
+                    al primer Instituto de Segunda Enseñanza
+                    de Algeciras, fundado durante el curso
+                    1849-1850.
+                </p>
+            </aside>
+        </section>
+
+        <section id="historia">
+            <h2>Historia y patrimonio de Algeciras</h2>
+
+            <div class="grid">
+
+                <article class="card">
+                    <h3>El origen del instituto</h3>
+                    <p><strong>1849-1850</strong></p>
+                    <p>
+                        Algeciras contó con uno de los
+                        primeros institutos de enseñanza
+                        secundaria de Andalucía Occidental.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>La Gymkana Matemática</h3>
+                    <p><strong>2026</strong></p>
+                    <p>
+                        El IES Kursaal impulsó una actividad
+                        que reunió a estudiantes para
+                        aprender matemáticas mediante
+                        pruebas y retos educativos.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>El edificio Kursaal</h3>
+                    <p><strong>Patrimonio cultural</strong></p>
+                    <p>
+                        El edificio Kursaal fue diseñado
+                        por Guillermo Pérez Villalta.
+                        Actualmente es un espacio
+                        relacionado con la cultura
+                        de Algeciras.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cronologia">
+            <h2>Cronología del Kursaal</h2>
+
+            <table>
+                <caption>Acontecimientos históricos y culturales</caption>
+
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Acontecimiento</th>
+                        <th>Ámbito</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1849-1850</td>
+                        <td>Origen del instituto de enseñanza</td>
+                        <td>Educación</td>
+                    </tr>
+
+                    <tr>
+                        <td>2007</td>
+                        <td>Inauguración del edificio Kursaal</td>
+                        <td>Cultura</td>
+                    </tr>
+
+                    <tr>
+                        <td>2015</td>
+                        <td>Donación de documentos del proyecto Kursaal</td>
+                        <td>Patrimonio</td>
+                    </tr>
+
+                    <tr>
+                        <td>2026</td>
+                        <td>Quinta Gymkana Matemática del IES Kursaal</td>
+                        <td>Educación</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="opinion">
+            <h2>Comparte tu opinión</h2>
+
+            <p>
+                ¿Qué importancia tiene para ti
+                el patrimonio educativo y cultural
+                de Algeciras?
+            </p>
+
+            <form action="#">
+                <fieldset>
+                    <legend>Formulario de opinión</legend>
+
+                    <label>Nombre
+                        <input type="text" name="nombre" required />
+                    </label>
+
+                    <label>Correo electrónico
+                        <input type="email" name="email" required />
+                    </label>
+
+                    <p>¿Qué tema te interesa más?</p>
+
+                    <label>
+                        <input type="radio" name="tema" value="historia" required />
+                        Historia del IES Kursaal
+                    </label>
+
+                    <label>
+                        <input type="radio" name="tema" value="cultura" />
+                        Edificio Kursaal y patrimonio cultural
+                    </label>
+
+                    <label>
+                        Valoración del patrimonio (1-10)
+                        <input type="range" name="valoracion" min="1" max="10" value="5" />
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="informacion" />
+                        Quiero recibir información cultural
+                    </label>
+
+                    <button type="submit">
+                        Enviar opinión
+                    </button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Fuentes de información</h2>
+
+            <p>
+                <a href="https://ieskursaal.es/ies-kursaal/nuestra-historia/">
+                    Fuente de la noticia real 1 </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://www.algeciras.es/es/detalle-de-noticia/Landaluce-presente-en-el-comienzo-de-la-quinta-edicion-de-la-Gymkana-Matematica-organizada-por-los-centros-de-la-ciudad/">
+                    Fuente de la noticia real 2 </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://www.algeciras.es/es/detalle-de-noticia/Juan-Lopez-Cuevas-dona-al-Ayuntamiento-documentacion-sobre-el-proyecto-del-edificio-Kursaal/">
+                    Fuente de la noticia real 3
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto educativo de HTML y CSS sobre nuestro instituto</p>
+    </footer>
+
+</body>
+
+</html>

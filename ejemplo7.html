@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Historia de Algeciras</title>
+    <style>
+        body {
+            font-family: system-ui;
+            margin: 1rem;
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))
+        }
+
+        .card {
+            border: 2px solid;
+            padding: 1rem;
+            border-radius: 6px
+        }
+
+        [data-category="tecnología"] {
+            border-color: #4078f2
+        }
+
+        [data-category="hogar"] {
+            border-color: #d97706
+        }
+
+        [data-category="deporte"] {
+            border-color: #059669
+        }
+
+        .fecha {
+            font-weight: 700
+        }
+    </style>
+</head>
+
+<body>
+    <article class="card" data-category="tecnología">
+        <h2>Conquista de Algeciras</h2>
+        <p class="fecha">1344</p>
+        <p>El rey Alfonso XI de Castilla conquistó Algeciras
+            tras un largo asedio, poniendo fin al dominio
+            musulmán de la ciudad.</p>
+    </article>
+
+    <article class="card" data-category="hogar">
+        <h2>Resurgimiento de Algeciras</h2>
+        <p class="fecha">1704</p>
+        <p>Tras la ocupación de Gibraltar por las tropas
+            anglo-holandesas, un grupo de sus habitantes
+            se estableció en las ruinas de Algeciras,
+            dando origen a la ciudad moderna.</p>
+    </article>
+
+    <article class="card" data-category="deporte">
+        <h2>Conferencia de Algeciras</h2>
+        <p class="fecha">1906</p>
+        <p>Algeciras acogió una conferencia internacional
+            en la que participaron trece potencias para
+            negociar sobre el futuro de Marruecos,
+            convirtiendo la ciudad en un centro diplomático.</p>
+    </article>
+
+</body>
+
+</html>
